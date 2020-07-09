@@ -1,38 +1,38 @@
 hubbalancer:
   nohub: '&cEr is geen lobby beschikbaar!'
-  connect: '&eJe bent verbonden met de lobby!'
-  alreadyconnected: '&eJe bent al verbonden met deze server!'
-  kicked: '&eJij bent gekickt &a%from% &evoor: &c%reason%&e!'
+  connect: '&eU bent verbonden met de lobby!'
+  alreadyconnected: '&eU bent al verbonden met deze server!'
+  kicked: '&eU bent gekickt &a%from% &evoor: &c%reason%&e!'
 core:
-  noperm: '&cJe hebt geen toestemming om deze command te gebruiken!'
+  noperm: '&cU heeft geen toestemming om deze command te gebruiken!'
 glist:
   playerlistcolor: '&f'
   format: '&a%server% &e(%players%): &fspelerslijst%'
-  total: '&fEr zijn &b%totalnum% &fspelers online!'
+  total: '&fEr zijn momenteel &b%totalnum% &fspelers online!'
 find:
-  usage: '&cGebruik alsjeblieft /find {naam}'
-  offline: '&a%player% &ewas last seen at &a%date%!'
-  never-joined: '&c%player% &enever joined before!'
+  usage: '&cGebruik alstublieft /find {naam}'
+  offline: '&a%player% &eis voor het laast gezien op &a%date%!'
+  never-joined: '&c%player% &eheeft nog nooit gejoint!'
   message: '&a%player% &7is online in &a%server%&7!'
 language:
   usage: '&cGebruikt alsjeblieft /language {lang}'
   already: '&cJe gebruikt deze taal al!'
   changed: '&aJe hebt je taal veranderd naar &b%language%&a!'
   wait: '&cJe moet &b%seconds% &cwachten om /language te gebruiken.'
-points: '&eJe hebt &b%points% &epoints!'
+points: '&eJe hebt &b%points% &epunten!'
 discord:
-  alreadylinked: '&cJe account is al gekoppeld met discord!'
+  alreadylinked: '&cJe account is al gekoppeld met Discord!'
   message:
   - '&6Je persoonlijke code is: &b%code%&6!'
-  - '&6Use &b!link %code% &6in discord om je account te koppelen!'
+  - '&6Gebruik &b!link %code% &6in Discord om je account te koppelen!'
 msg:
   wrongusage: '&cGebruik alsjeblieft /msg {speler} {bericht}!'
-  offlinetarget: '&cDie speler is niet online!'
+  offlinetarget: '&cDie speler is momenteel niet online!'
   receiving: '&8[&6%player% &c» &6Ik&8] &r%message%'
   sending: '&8[&6Ik &c» &6%player%&8] &r%message%'
 reply:
   wrongusage: '&cGebruik alsjeblieft /reply {antwoord}!'
-  notarget: '&cJe hebt niemand om op te antwoorden!'
+  notarget: '&cU heeft niemand om op te antwoorden!'
   offlinetarget: '&cDie speler is niet online!'
   receiving: '&8[&6%player% &c» &6Ik&8] &r%message%'
   sending: '&8[&6Ik &c» &6%player%&8] &r%message%'
@@ -49,42 +49,42 @@ staffchat:
   enabled: '&2Je praat nu in de Staff Chat!'
   disabled: '&2Je praat niet meer in de Staff Chat!'
 antiad:
-  message: '&cAdverteer alsjeblieft niet!'
+  message: '&cAdverteer alstublieft niet!'
   staffmessage:
   - '&b%name% &6Probeerde te adverteren in &b%server%&6, maar is geblokeerd!'
   - '&bMessage: &6%message%'
 antiswear:
-  message: '&cScheld alsjeblieft niet!'
+  message: '&cScheld alstublieft niet!'
   staffmessage:
   - '&b%name% &6Probeerde te schelden in &b%server%&6, maar is geblokeerd!'
   - '&bMessage: &6%message%'
 vote:
   links:
-  - '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
-  - '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
-  text: '&a&l> &f&lVote:&a&l http://cubedcraft.com/vote/'
+  - '&a&l> &f&lStem:&a&l http://cubedcraft.com/vote/'
+  - '&a&l> &f&lStem:&a&l http://cubedcraft.com/vote/'
+  text: '&a&l> &f&lStem:&a&l http://cubedcraft.com/vote/'
   header: '&7&l&m========================================='
   footer: '&7&l&m========================================='
 store:
   message:
-  - '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
-  - '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
-  text: '&a&l> &f&lStore:&a&l http://store.cubedcraft.com/'
+  - '&a&l> &f&lWinkel:&a&l http://store.cubedcraft.com/'
+  - '&a&l> &f&lWinkel:&a&l http://store.cubedcraft.com/'
+  text: '&a&l> &f&lWinkel:&a&l http://store.cubedcraft.com/'
   header: '&7&l&m========================================='
   footer: '&7&l&m========================================='
 rules:
   message:
-  - '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
-  - '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
-  text: '&a&l> &f&lRules:&a&l http://cubedcraft.com/rules/'
+  - '&a&l> &f&lRegels:&a&l http://cubedcraft.com/rules/'
+  - '&a&l> &f&lRegels:&a&l http://cubedcraft.com/rules/'
+  text: '&a&l> &f&lRegels:&a&l http://cubedcraft.com/rules/'
   header: '&7&l&m========================================='
   footer: '&7&l&m========================================='
 report:
-  usage: '&ePlease use &b/report (player) (reason)&e!'
+  usage: '&eGebruik alstublieft &b/report (speler) (reden)&e!'
   cooldown: '&eWacht alstublieft &c%time% &eseconden om weer iemand te melden!'
   offline: '&cDie speler is niet online!'
-  not-in-server: '&eDeze speler is niet in de zelfde server als jij.!'
+  not-in-server: '&eDeze speler is niet in de zelfde server als u!'
   staff:
   - '&7(&a%server%&7) &b%player% &eheeft &b%target% gemeld!'
-  - '&bReason: &e%reason%'
-  success: '&eje hebt &b%player%&e gemeld!'
+  - '&bReden: &e%reason%'
+  success: '&eJe hebt &b%player%&e gemeld!'
